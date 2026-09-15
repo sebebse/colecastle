@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Comic Sans MS';
+}
+
+main {
+    margin: 2em;
+    padding: 1em;
+    background-color: black;
+    border: 1px solid red;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+.header-image {
+    height: auto;
+    width: 25vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.seperator-image {
+    width: 100vw;
+    height: auto;
+}
+
+#title-bar {
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    font-family: 'Impact';
+    font-style: italic;
+    font-size: 8vw;
+    text-decoration: underline;
+    text-align: center;
+    color: red;
+}
+
+#subtitle {
+    font-size: 2vw;
+    text-align: center;
+    color: red;
+}
